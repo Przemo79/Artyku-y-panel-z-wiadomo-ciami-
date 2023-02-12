@@ -1,0 +1,240 @@
+.srodek,.srodek_panel{
+	width: 490px;
+	height: 250px;
+	background-color: white;
+	border: 5px solid #222222;
+	border-radius: 20px;
+	margin: 0 auto;
+	padding: 10px;
+	font-family: Arial;
+	font-size: 20px;
+}
+.srodek_panel{
+	margin-top: 100px;
+}
+.srodek_dlugi{
+	width: 490px;
+	height: 450px;
+	background-color: white;
+	border: 5px solid #222222;
+	border-radius: 20px;
+	margin: 0 auto;
+	padding: 10px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.button1 {
+	padding: 16px 25px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	background-color: white; 
+	color: black; 
+	border: 2px solid #f44336;
+	border-radius: 7px;
+	float: left;
+	width: 240px;
+}
+
+.button1:hover,.button7:hover {
+	background-color: #f44336;
+	color: white;
+}
+
+.button2 {
+	padding: 16px 25px;
+	width: 240px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	background-color: white; 
+	color: black; 
+	border: 2px solid #3c8dbc;
+	border-radius: 7px;
+	float: left;
+}
+
+.button2:hover,.button3:hover,.button6:hover {
+	background-color: #3c8dbc;
+	color: white;
+}
+.button5:hover{
+	color: black;
+	background-color: white;
+}
+.button4:hover {
+	background-color: white;
+	color: black;
+}
+
+.napis {
+	width: 490px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.button3 {
+	padding: 16px 25px;
+	width: 180px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	background-color: white; 
+	color: black; 
+	border: 2px solid #3c8dbc;
+	border-radius: 7px;
+}
+
+.button4 {
+	padding: 10px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	background-color: #3c8dbc; 
+	color: white; 
+	border: 2px solid #f44336;
+	border-radius: 7px;
+	font-family: Arial;
+	background-color: #f44336;
+	margin-right: 30px;
+	float: right;
+}
+
+
+.button5 {
+	padding: 5px 5px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	background-color: #3c8dbc; 
+	color: white; 
+	border: 2px solid #3c8dbc;
+	border-radius: 7px;
+	font-family: Arial;
+	background-color: #3c8dbc;
+}
+
+.button6,.button7 {
+	padding: 2px 2px;
+	text-align: center;
+	display: inline-block;
+	font-size: 14px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	float: left;
+	border-radius: 5px;
+	font-family: Arial;
+	background-color: #3c8dbc;
+	font-weight: bold;
+	margin: 1px;
+}
+.button6{
+	background-color: white; 
+	color: black; 
+	border: 1px solid #3c8dbc;
+}
+.button7{
+	background-color: white; 
+	color: black; 
+	border: 1px solid #f44336;
+}
+
+.kto{
+	background-color: #3c8dbc;
+	height: 50px;
+	font-size: 30px;
+	font-family: Arial;
+	color: white;
+	padding: 5px;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+.panelbg{
+	background-color: #eceff4;
+	padding: 10px;
+}
+.articles{
+	font-size: 40px;
+	font-family: Arial;
+	color: #444444;
+	float: left;
+	align-items: center;
+	padding-left: 20px;
+	margin-right: 20px;
+}
+.allarticles{
+	font-size: 18px;
+	font-family: Arial;
+	color: #666666;
+	float: left;
+	margin-top: 17px;
+}
+.tabeleczka{
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: white;
+	border-top: 2px solid #666666;
+	padding: 15px;
+}
+.tytul{
+	height: 70px;
+}
+
+.rekordy{
+	margin-top: 15px;
+	border-top: 1px solid #555555;
+	font-size: 30px;
+	color: #666666;
+	font-family: Arial;
+	text-shadow: 1px 1px 1px #111111;
+}
+.floatleft{
+	float: right;
+}
+.mainTD,.akcjeTD {
+	font-weight: bold;
+	font-family: Arial;
+	color: black;
+	padding: 5px;
+	padding-right: 10px;
+	font-size: 17px;
+}
+.basicTD,.liczbyTD,.statusTD {
+	font-family: Arial;
+	color: black;
+	padding: 3px;
+	padding-right: 5px;
+	font-size: 16px;
+}
+.tabelunia{
+	border-collapse: collapse;
+}
+td{
+	border: 1px solid #666666;
+	background-color: #e6e6e6;
+}
+.liczbyTD{
+	text-align: center;
+}
+.statusTD{
+	text-align: center;
+	padding: 0px 6px;
+}
+.akcjeTD{
+	padding-right: 65px;
+}
